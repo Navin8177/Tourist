@@ -1,0 +1,43 @@
+.row1{
+    background-color:rgb(192, 225, 238);
+    display:flex;
+    justify-content: space-between;
+}
+.col1 img{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.col2{
+    display :flex;
+    justify-content: space-around;
+    width: 500px;
+}
+.col2 h3{
+    padding:10px;
+    margin:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+
+
+}
+.col2 h3:hover{
+    background-color: darkkhaki;
+    
+}
+.Home{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.Menu{
+    margin-top: 10px;
+}
+.Aboutus{
+    margin-top: 10px;
+}
+.Signin{
+    margin-top: 10px;
+    margin-right: 10px;
+}

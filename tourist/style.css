@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(#43c6ac,#f8ffae);
+    
+}
+body{
+    background-image: url('./img/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+nav img{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    list-style: none;
+    
+}
+.navigation ul li{
+    
+    border-radius: 25px;  
+    padding: 10px;
+    font-weight: bold; 
+    font-size: larger;     
+}
+.navigation ul li:hover{
+    background-color: #9CECFB;
+}
+.Login:hover{
+    background-color: #9CECFB;
+    
+         
+}
+.Login{
+    margin-right: 15px;
+    border-radius: 25px;  
+    padding: 10px;
+}
+.Heading{
+    text-align: center;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 30px;
+}
+@keyframes Slide {
+    0% {margin-left: 0%}
+  50% {margin-left: -100%;}
+  100% {margin-left: -200%;}
+}
+.slide-number{
+    height: 450px;
+    width: 20%;
+}
+  #Slideshow{
+    overflow: hidden;
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    box-shadow: 3px 6px 10px 5px   black;
+}
+  .Slide-wrapper{
+    width: 500%;
+    margin: 0px;
+    margin-top: 0px;
+    position: relative;
+    animation-name: Slide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+.shimla {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+   
+}
+
+
+
+.child{
+    width: 450px;
+    box-shadow: 3px 6px 10px 5px   black;
+}
+.right h1{
+    margin-left: 120px;
+    margin-top: -65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.right p{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-family:monospace;
+    font-style: oblique;
+    font-weight:lighter;
+    border: 2px solid black;
+    padding: 30px;
+
+}
+.right p:hover{
+    background-color:#22A99B;
+
+}
+
+
+
+
+
+
